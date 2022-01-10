@@ -2660,7 +2660,7 @@ input, select, textarea {
 				margin-bottom: 0.5em;
 			}
 
-			.feature .content :last-child {
+			.feature .content p{
 				margin: 0;
 			}
 
@@ -3300,3 +3300,97 @@ input, select, textarea {
 				}
 
 	}
+
+	button{
+		width: 8em;
+		height: 3em;
+		border-radius: 12px;
+		border-color: #888888;
+		background-color: #d3d3d3; 
+		color: rgb(0, 0, 0);
+		text-align: center;
+		text-decoration: none;
+		display: inline-block;
+		font-size: 16px;
+		font: inherit;
+		cursor: pointer;
+	}
+
+	.btn:hover{
+		background: #c7c7c7;
+	}
+
+	a{
+		text-decoration: none;
+		border-bottom: none;
+	}
+
+	#header p {
+		margin-bottom: 3em;
+	}
+	
+	.downArrow{
+		bottom: 45%;
+		left: 50%;
+	}
+
+	.downArrow a{
+		outline: none;
+	}
+	.bounce {
+		-moz-animation: bounce 3s infinite;
+		-webkit-animation: bounce 3s infinite;
+		animation: bounce 3s infinite;
+	}
+	@-moz-keyframes bounce {
+	  0%, 20%, 50%, 80%, 100% {
+		-moz-transform: translateY(0);
+		transform: translateY(0);
+	  }
+	  40% {
+		-moz-transform: translateY(-30px);
+		transform: translateY(-30px);
+	  }
+	  60% {
+		-moz-transform: translateY(-15px);
+		transform: translateY(-15px);
+	  }
+	}
+	@-webkit-keyframes bounce {
+	  0%, 20%, 50%, 80%, 100% {
+		-webkit-transform: translateY(0);
+		transform: translateY(0);
+	  }
+	  40% {
+		-webkit-transform: translateY(-30px);
+		transform: translateY(-30px);
+	  }
+	  60% {
+		-webkit-transform: translateY(-15px);
+		transform: translateY(-15px);
+	  }
+	}
+	@keyframes bounce {
+	  0%, 20%, 50%, 80%, 100% {
+		-moz-transform: translateY(0);
+		-ms-transform: translateY(0);
+		-webkit-transform: translateY(0);
+		transform: translateY(0);
+	  }
+	  40% {
+		-moz-transform: translateY(-30px);
+		-ms-transform: translateY(-30px);
+		-webkit-transform: translateY(-30px);
+		transform: translateY(-30px);
+	  }
+	  60% {
+		-moz-transform: translateY(-15px);
+		-ms-transform: translateY(-15px);
+		-webkit-transform: translateY(-15px);
+		transform: translateY(-15px);
+	  }
+	}
+
+	html {
+		scroll-behavior: smooth;
+	  }
