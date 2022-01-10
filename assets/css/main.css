@@ -2651,7 +2651,7 @@ input, select, textarea {
 
 		.feature .content {
 			display: inline-block;
-			padding: 3.5em;
+			padding: 1em;
 			vertical-align: middle;
 			width: 48%;
 		}
@@ -3015,7 +3015,7 @@ input, select, textarea {
 			}
 
 				.feature .content {
-					padding: 2.5em;
+					padding: 1em;
 				}
 
 		/* Header */
@@ -3166,7 +3166,7 @@ input, select, textarea {
 
 				.feature .content {
 					border: solid 1px rgba(224, 224, 224, 0.75);
-					padding: 2em !important;
+					padding: 1em !important;
 					text-align: center;
 					width: 100%;
 				}
@@ -3263,7 +3263,7 @@ input, select, textarea {
 			}
 
 				.feature .content {
-					padding: 2em 1em !important;
+					padding: 1em 1em !important;
 				}
 
 		/* Main */
