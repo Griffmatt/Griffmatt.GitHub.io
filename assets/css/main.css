@@ -132,7 +132,11 @@ input, select, textarea {
 		font-style: italic;
 	}
 
-	p, ul, ol, dl, table, blockquote, form {
+	p, ol, dl, table, blockquote, form {
+		margin: 0 0 2em 0;
+	}
+
+	.resume{
 		margin: 0 0 2em 0;
 	}
 
