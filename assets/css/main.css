@@ -3013,10 +3013,6 @@ input, select, textarea {
 
 		/* Feature */
 
-			.feature {
-				height: 18em;
-			}
-
 				.feature .content {
 					padding: 1em;
 				}
